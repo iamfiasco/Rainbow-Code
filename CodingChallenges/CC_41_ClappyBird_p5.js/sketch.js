@@ -83,6 +83,7 @@ function draw() {
 function keyPressed() {
   if (key == ' ') {
     bird.up();
-    //console.log("SPACE");
+
+    console.log("BOOM");
   }
 }
